@@ -35,6 +35,9 @@ LCM_DSI_MODE_CON lcm_dsi_mode;
 
 LCM_DRIVER *lcm_driver_list[] = {
 
+#if defined(NT35521_HD720_DSI_VDO_INNOLUX)
+	&nt35521_hd720_dsi_vdo_innolux_lcm_drv,
+#endif
 #if defined(HCT_OTM1285A_DSI_VDO_HD_BOE)
 &hct_otm1285a_dsi_vdo_hd_boe,
 #endif

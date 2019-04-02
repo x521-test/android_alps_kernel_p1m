@@ -16,6 +16,7 @@
 
 #include <lcm_drv.h>
 
+extern LCM_DRIVER nt35521_hd720_dsi_vdo_innolux_lcm_drv;
 extern LCM_DRIVER hct_rm68200_dsi_vdo_hd_cpt;
 extern LCM_DRIVER hct_otm1285a_dsi_vdo_hd_boe;
 extern LCM_DRIVER hct_otm1282a_dsi_vdo_hd_auo;
